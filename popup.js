@@ -9,10 +9,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Retrieve the previously saved value
-    chrome.storage.sync.get("numParagraphs", function(data) {
-        if (data.numParagraphs !== undefined) {
-            paragraphsInput.value = data.numParagraphs;
-        }
-    });
 });
