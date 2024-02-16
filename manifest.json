@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LoremIpsumInput",
+  "name": "Form filler",
   "version": "1.0",
-  "description": "Automatically fills text inputs with Lorem Ipsum text.",
+  "description": "Automatically fills inputs with random data",
   "permissions": ["contextMenus"],
   "action": {
     "default_popup": "popup.html",
